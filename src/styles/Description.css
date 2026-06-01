@@ -1,0 +1,110 @@
+.content {
+  margin-top: 100px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 5%;
+  box-sizing: border-box;
+}
+
+.content_genres {
+  display: flex;
+  color: white;
+  font-size: 1.5rem;
+  gap: 30px;
+  font-weight: 500;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+  letter-spacing: 10px;
+}
+
+.content_info {
+  display: flex;
+  gap: 30px;
+}
+
+b {
+  color: white;
+  font-size: 1.5rem;
+}
+.content_info-white {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.content_info-grey {
+  color: grey;
+  font-size: 1.5rem;
+}
+
+p {
+  max-width: 600px;
+}
+
+
+.content-stars {
+  display: flex;
+  gap: 8px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.star {
+  width: 30px;
+  height: 30px;
+
+  background-image: url("../assets/star-empty.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  cursor: pointer;
+  transition: transform 0.2s ease, filter 0.2s ease;
+  transition: all 0.25s ease;
+}
+
+.star.active {
+  background-image: url("../assets/star-filled.png");
+}
+
+.star:hover {
+  transform: scale(1.15);
+  filter: brightness(1.2);
+}
+
+.content_btns {
+    display: flex;
+    gap: 100px;
+}
+
+.content_btn-stream {
+    display: flex;
+    text-align: center;
+    place-items: center;
+    background-color: rgb(198, 17, 17);
+    border-radius: 5px;
+    color: white;
+    width: 250px;
+    height: 70px;
+    gap: 30px;
+    border: 0px;
+    font-size: 1.2rem;
+    padding-left: 40px;
+}
+
+.content_btn-episodes {
+    display: flex;
+    text-align: center;
+    place-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+    width: 250px;
+    height: 70px;
+    border: 3px white solid;
+    font-size: 1.2rem;
+}

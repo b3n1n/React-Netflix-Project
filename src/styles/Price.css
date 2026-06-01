@@ -1,0 +1,7 @@
+.price-wrapper {
+  min-height: 100vh;
+}
+
+.price-wrapper .container {
+  width: 100%;
+}
